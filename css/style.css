@@ -691,7 +691,7 @@ body.light hr.separator {
 .about .c100 {
   float: none !important;
   margin: 0 auto;
-  background-color: #252525;
+  background-color: #25252500;
 }
 
 .about .c100 > span {
@@ -1756,4 +1756,31 @@ body.light hr.separator {
   .separator.mt-1 {
     margin-top: 35px !important;
   }
+}
+
+.images_skills{
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 5em;
+  line-height: 5em;
+  font-size: 0.2em;
+  color: #cccccc;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
